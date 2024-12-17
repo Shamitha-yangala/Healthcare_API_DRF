@@ -50,7 +50,7 @@ class Medications(models.Model):
     active=models.BooleanField(default=False,null=True)#status
     
     def __str__(self):
-        return f'{self.medication_name} ({self.status})'
+        return f'{self.medication_name} ({self.active})'
 
 # patient Emergency contact information
 class Emergency_contact(models.Model):
