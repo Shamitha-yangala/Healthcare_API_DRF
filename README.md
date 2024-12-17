@@ -1,4 +1,4 @@
-# DRF Healthcare API
+
 
 ## Overview
 
@@ -45,33 +45,33 @@ This is a RESTful API built with Django and Django REST Framework (DRF) for mana
 ## Installation
 
 1. **Clone the Repository**
-   ```bash
-   git clone <repository_url>
-   cd <repository_folder>
-   ```
+  
+   git clone git@github.com:Shamitha-yangala/Healthcare_API_DRF.git
+   cd /Healthcare_API_DRF
+   
 
 2. **Set up Virtual Environment**
-   ```bash
+  
    python -m venv venv
    source venv/bin/activate  # For Linux/Mac
    venv\Scripts\activate     # For Windows
-   ```
+   
 
 3. **Install Dependencies**
-   ```bash
+   
    pip install -r requirements.txt
-   ```
+ 
 
 4. **Run Migrations**
-   ```bash
+   
    python manage.py makemigrations
    python manage.py migrate
-   ```
+
 
 5. **Start the Development Server**
-   ```bash
+   
    python manage.py runserver
-   ```
+ 
 
 ---
 
@@ -83,6 +83,5 @@ This is a RESTful API built with Django and Django REST Framework (DRF) for mana
 - All `ForeignKey` relationships are validated during serialization to ensure data consistency.
 
 ---
-
 
 
