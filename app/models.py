@@ -38,7 +38,7 @@ class Family_member(models.Model):
 
 
     def __str__(self):
-        return f'{self.relation}---{self.relation}'
+        return f'{self.patient}---{self.relation}'
     
 #  patient medications model
 class Medications(models.Model):
